@@ -5,7 +5,7 @@ const fastify = require('fastify')({
 fastify.get('/', function(request , reply){
     reply.send({hello :"World"})
 })
-//woking
+//  working
 fastify.listen({port:3000} , (err ,address)=>{
     if(err){
         fastify.log.error(err)
