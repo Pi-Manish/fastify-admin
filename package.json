@@ -2,7 +2,6 @@
   "dependencies": {
     "@fastify/env": "^4.3.0",
     "@fastify/mongodb": "^8.0.0",
-    "dotenv": "^16.4.1",
     "fastify": "^4.25.2",
     "mongoose": "^8.1.1"
   }
